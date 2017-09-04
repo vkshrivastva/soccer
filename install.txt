@@ -1,0 +1,17 @@
+Steps to setup the project
+
+1. git clone https://github.com/vkshrivastva/soccer.git ./soccer
+2. cd soccer
+3. create databases "soccer" and "soccer_testing" in the mysql database
+4. rename .env.example into .env
+5. change DB_DATABASE=soccer
+6. update the 
+		DB_USERNAME=homestead   
+		DB_PASSWORD=secret
+
+with your database username and password
+
+7. run command "composer install" from the project folder
+8. run command "php artisan migrate --seed" from the project folder
+9. open the browser and navigate http://localhost/<projectname>/public/
+
